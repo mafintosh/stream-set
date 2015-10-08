@@ -6,6 +6,8 @@ Maintain a set of open streams
 npm install streams-set
 ```
 
+[![build status](http://img.shields.io/travis/mafintosh/streams-set.svg?style=flat)](http://travis-ci.org/mafintosh/streams-set)
+
 ## Usage
 
 ``` js
