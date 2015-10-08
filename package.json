@@ -1,6 +1,6 @@
 {
   "name": "streams-set",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Maintain a set of open streams",
   "main": "index.js",
   "scripts": {
