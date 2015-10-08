@@ -17,6 +17,10 @@ StreamsSet.prototype.forEach = function (fn) {
   this.streams.forEach(fn)
 }
 
+StreamsSet.prototype.get = function (i) {
+  return i >= this.size ? null : this.streams[i]
+}
+
 StreamsSet.prototype.has = function (stream) {
   return this.streams.indexOf(stream) > -1
 }

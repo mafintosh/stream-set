@@ -67,6 +67,10 @@ The current size of the set
 
 Iterate over all streams in the set
 
+#### `stream = set.get(index)`
+
+Get a stream from the set
+
 ## License
 
 MIT
