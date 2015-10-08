@@ -1,0 +1,26 @@
+{
+  "name": "streams-set",
+  "version": "0.0.0",
+  "description": "Maintain a set of open streams",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "dependencies": {
+    "end-of-stream": "^1.1.0"
+  },
+  "devDependencies": {
+    "tape": "^4.2.1",
+    "through2": "^2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mafintosh/streams-set.git"
+  },
+  "author": "Mathias Buus (@mafintosh)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mafintosh/streams-set/issues"
+  },
+  "homepage": "https://github.com/mafintosh/streams-set"
+}
