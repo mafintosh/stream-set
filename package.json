@@ -1,5 +1,5 @@
 {
-  "name": "streams-set",
+  "name": "stream-set",
   "version": "1.1.0",
   "description": "Maintain a set of open streams",
   "main": "index.js",
@@ -15,12 +15,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mafintosh/streams-set.git"
+    "url": "https://github.com/mafintosh/stream-set.git"
   },
   "author": "Mathias Buus (@mafintosh)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mafintosh/streams-set/issues"
+    "url": "https://github.com/mafintosh/stream-set/issues"
   },
-  "homepage": "https://github.com/mafintosh/streams-set"
+  "homepage": "https://github.com/mafintosh/stream-set"
 }

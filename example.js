@@ -1,7 +1,7 @@
-var streamsSet = require('./')
+var streamSet = require('./')
 var net = require('net')
 
-var activeSockets = streamsSet()
+var activeSockets = streamSet()
 
 var server = net.createServer(function (socket) {
   // when the socket ends/errors it will automatically be removed from the set

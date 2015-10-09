@@ -1,20 +1,20 @@
-# streams-set
+# stream-set
 
 Maintain a set of open streams
 
 ```
-npm install streams-set
+npm install stream-set
 ```
 
-[![build status](http://img.shields.io/travis/mafintosh/streams-set.svg?style=flat)](http://travis-ci.org/mafintosh/streams-set)
+[![build status](http://img.shields.io/travis/mafintosh/stream-set.svg?style=flat)](http://travis-ci.org/mafintosh/stream-set)
 
 ## Usage
 
 ``` js
-var streamsSet = require('./')
+var streamSet = require('stream-set')
 var net = require('net')
 
-var activeSockets = streamsSet()
+var activeSockets = streamSet()
 
 var server = net.createServer(function (socket) {
   // when the socket ends/errors it will automatically be removed from the set
@@ -39,7 +39,7 @@ server.listen(10000, function () {
 
 ## API
 
-#### `var set = streamsSet()`
+#### `var set = streamSet()`
 
 Create a new set
 
